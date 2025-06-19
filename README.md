@@ -11,17 +11,20 @@
 - 提供独立的批量取关工具
 
 ## 使用说明
+- 从 [Releases 页面](link/to/releases) 下载可执行文件
+- 运行程序，选择扫码或Cookie登录
+-  等待数据获取完成
+- 勾选需要删除的项目，点击删除
 
-1.  从 [Releases 页面](link/to/releases) 下载可执行文件
-2.  运行程序，选择扫码或Cookie登录
-3.  等待数据获取完成
-4.  勾选需要删除的项目，点击删除
+
+## 潜在风险提示：
+- 短时间大量请求api可能触发风控，导致部分操作失败
+- 尽管概率较低，但不能完全排除因滥用导致账号被封禁或触发其他限制的可能性
+- 为了控制风险,如果你有上千条内容需要清理，请不要一次性完成并保持默认延迟
 
 ## 致谢
 
-本项目在 [Initsnow/bilibili-comment-cleaning](https://github.com/Initsnow/bilibili-comment-cleaning) 的基础上进行了深度的二次开发和功能升级。
-
-我在原项目优秀的核心逻辑上,对ui和部分功能进行了完善
+本项目在 [Initsnow/bilibili-comment-cleaning](https://github.com/Initsnow/bilibili-comment-cleaning) 的基础上进行了二次开发和功能升级,完善。
 
 非常感谢原作者 **Initsnow** 的开源分享，为本项目奠定了坚实的基础。
     
